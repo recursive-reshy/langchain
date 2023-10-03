@@ -31,7 +31,7 @@ def generate_pet_name( animal_type, pet_color ):
 
 def langchain_agent():
   
-  tools=load_tools( 
+  tools = load_tools( 
     [ 'wikipedia', 'llm-math' ], 
     llm = OpenAI( temperature=0.5 ) 
   )
