@@ -39,8 +39,8 @@ def langchain_agent():
   agent = initialize_agent( 
     llm = OpenAI( temperature=0.5 ),
     agent = AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-    verbose = True, 
     tools = tools,
+    verbose = True,
   )
 
   result = agent.run(
