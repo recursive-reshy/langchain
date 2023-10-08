@@ -76,7 +76,8 @@ def main():
       docs = vector_store.similarity_search( query = query )
       
       llm = OpenAI(
-        temperature = 0
+        temperature = 0,
+        model_name = 'gpt-3.5-turbo'
       )
 
       chain = load_qa_chain(
