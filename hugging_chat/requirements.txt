@@ -1,4 +1,7 @@
-streamlit
+langchain
 hugchat
+streamlit
 streamlit-chat
 streamlit-extras
+python-dotenv
+huggingface_hub
