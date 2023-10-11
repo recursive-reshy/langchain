@@ -1,5 +1,7 @@
 langchain
+openai
 streamlit
-streamlit-chat
-streamlit-extras
+wikipedia
+chromadb
+tiktoken
 python-dotenv
